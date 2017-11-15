@@ -1,6 +1,10 @@
 body {
   background-color: #b84dd4;
-  font: normal 20px helvetica Arial sans-serif;
+  /*font: normal 20px helvetica Arial sans-serif;*/
+}
+
+nav {
+  background-color: rgba(59,150,253, .5);
 }
 
 h1 {
@@ -23,6 +27,7 @@ h1 {
    margin-top: 10px;
    height: 400px;
    padding: 10px;
+   overflow: hidden;
 }
 
 
