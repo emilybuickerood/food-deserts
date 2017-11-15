@@ -25,6 +25,7 @@ nav img {
 nav a {
   color: #000000;
   text-decoration: none;
+  transition: all .2s;
 }
 
 nav a:hover{
