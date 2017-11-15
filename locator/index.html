@@ -8,8 +8,34 @@
   </head>
   <body>
     <h1>How do you know if you're in a food desert?</h1>
-    <p>Navigating your way in the world is hard enough without worrying about access to nutrition.</p>
-    <p>We ate Urban Deserts understand your time is valuable and we want to help.</p>
-    <p>Use the JavaScript-enabled gadget below to find out if you live in a food desert.</p>
+    <div class="container">
+      <div class="row">
+        <div class="col"><p>Navigating your way in the world is hard enough without worrying about access to nutrition.</p></div>
+        <div class="col"><p>We at Urban Deserts understand your time is valuable and we want to help.</p></div>
+        <div class="col"><p>Use the JavaScript-enabled gadget below to find out if you live in a food desert.</p></div>
+      </div>
+
+      <div class="row">
+        <div class="locator">
+          <p>Choose from the menu where you currently live:</p>
+          <form>
+            <select id="loc-select">
+              <option value="Choose" width=50>Choose</option>
+              <option value="Camden, NJ" width=50>Camden, NJ</option>
+              <option value="The Sahara" width=50>The Sahara</option>
+              <option value="Margaritaville" width=50>Margaritaville</option>
+              <option value="Greensgrow Farms" width=50>Greensgrow Farms</option>
+              <option value="PostApocalypse" width=50>A Post-Nuclear Apocalyptic Future</option>
+            </select>
+          </form>
+          <div id="loc-output"></div>
+
+          </div>
+        </div>
+      </div>
+
+    </div>
+
+    <script src="../js/main.js" charset="utf-8"></script>
   </body>
 </html>
