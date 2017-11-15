@@ -5,16 +5,30 @@ body {
 
 h1 {
   color: #ffff00;
+  margin-bottom: 5px;
 }
 
 .content {
   background-color: #a32dd8;
-
+  margin-top: 15px;
+  margin-left: 5px;
+  padding: 5px;
   font: normal 30px  georgia;
+  width: 300px;
 }
 
-.info {
+.row {
   background-color:  #a32dd8;
    font: normal  20px helvetica;
    margin-top: 10px;
+   height: 400px;
+   padding: 10px;
+}
+
+
+
+.colomn {
+  float: left;
+  width: 49%;
+  font: normal 16px;
 }
