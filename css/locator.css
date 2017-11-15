@@ -3,23 +3,24 @@
 }
 
 body {
-  background: #1C8A62;
-  font-family: Georgia, monospace;
+  background: #DBEEE9;
+  font-family: 'Roboto', sans-serif;
 }
 
 h1 {
   color: #073424;
-  font-family: Helvetica;
+  font-family: 'Roboto';
   font-size: 50px;
   text-align: center;
   margin: 30px;
   padding: 10px;
-  border: 3px dotted #14835B;
+  border: 3px solid #14835B;
+  border-radius: 10px;
   background: #A9CBC2;
 }
 
 p {
-  font-family: Georgia;
+  font-family: 'Roboto';
   font-weight: bold;
   padding: 10px;
   margin: 80px;
@@ -42,9 +43,51 @@ p {
 }
 
 
-
 .loc-select {
   font-size: 40px;
+}
+
+nav {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+nav img {
+  width: 250px;
+  height: 75px;
+  transition: all .5s;
+}
+
+nav img:hover {
+  opacity: .5;
+}
+
+nav a {
+  color: #000000;
+  text-decoration: none;
+  transition: all .2s;
+}
+
+nav a:hover{
+  color: #16b793;
+  text-decoration: underline;
+}
+
+ul.nav {
+  list-style: none;
+  padding: 10px;
+  font-weight: bold;
+}
+
+ul.nav li {
+  display: inline;
+  margin-right: 30px;
+}
+
+.container {
+  max-width: 970px;
+  margin: 0 auto;
 }
 
 @media all and (min-width: 600px){
@@ -58,4 +101,7 @@ p {
   .col:last-child {
     border-style: none;
   }
+
+
+
 }
