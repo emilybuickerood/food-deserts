@@ -1,8 +1,20 @@
 body {
-  background-color: #a32dd8;
-  font: 20px, helvetica, Arial, sans-serif;
+  background-color: #b84dd4;
+  font: normal 20px helvetica Arial sans-serif;
 }
 
 h1 {
-  
+  color: #ffff00;
+}
+
+.content {
+  background-color: #a32dd8;
+
+  font: normal 30px  georgia;
+}
+
+.info {
+  background-color:  #a32dd8;
+   font: normal  20px helvetica;
+   margin-top: 10px;
 }
