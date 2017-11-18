@@ -90,6 +90,10 @@ ul.nav li {
   margin: 0 auto;
 }
 
+img {
+  max-width: 400px;
+}
+
 @media all and (min-width: 600px){
   .col {
     width: 33.3333%;
